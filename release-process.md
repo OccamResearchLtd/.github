@@ -14,8 +14,6 @@ When ready for release, the following steps should be followed:
 	git archive --format zip --output /full/path/release-v1.0.0.zip release/v1.0.0
 	```
 
-1. Create a new private repository in the OccamResearchLtd GitHub organisation (e.g. `OccamResearchLtd/occam-model`). This will be made public after a final manual review.
-
 1. Extract the archived files to a new directory (e.g. `occam-model`):
 	```
 	unzip /full/path/release-v1.0.0.zip -d /full/path/occam-model
@@ -30,7 +28,10 @@ When ready for release, the following steps should be followed:
 	git commit -m "Initial public release v1.0.0"
 	```
 
-1. Push the new repository to the new repo on GitHub:
+
+1. Create a new private repository in the OccamResearchLtd GitHub organisation (e.g. `OccamResearchLtd/occam-model`). This will be made public after a final manual review.
+
+1. Push your new local repository to this new GitHub repository:
 	```
 	git remote add origin git@github.com:OccamResearchLtd/occam-model.git
 	git push -u origin main	
