@@ -6,3 +6,4 @@ For more information and for all enquiries please see: https://www.occamresearch
 
 ### Development resources
 * style guide: [style-guide.md](style-guide.md)
+* model development and release process: [release-process.md](release-process.md)
