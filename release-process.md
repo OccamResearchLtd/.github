@@ -1,7 +1,8 @@
-# Model development and release process
+## Model development
 
 Up until the first release, models should be developed in a private repository. By convention these repositories should have a `-dev` suffix, e.g. `OccamResearchLtd/occam-model-dev`.
 
+## Making a model public
 When ready for release, the following steps should be followed:
 
 1. In the dev repo, create a release branch from `main` (e.g. `release/v1.0.0`):
@@ -51,3 +52,9 @@ When ready for release, the following steps should be followed:
 	1. Set the tag version (e.g. `v1.0.0`).
 	1. Add a title and description for the release.
 	1. Click "Publish release".
+
+## Adding a DOI
+
+Follow the [GitHub instructions](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content#issuing-a-persistent-identifier-for-your-repository-with-zenodo) to create a DOI using Zenodo.
+
+Once the DOI is created, it should be added to the `README.md` file of the public repository, and to the release notes.
