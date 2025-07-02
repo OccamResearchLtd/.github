@@ -3,3 +3,7 @@ Occam Research Ltd is a boutique consultancy specialising in delivering academic
 Select models will be made available under an [Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) via this GitHub organisation.
 
 For more information and for all enquiries please see: https://www.occamresearch.com/
+
+### Development resources
+* style guide: [style-guide.md](style-guide.md)
+* model development and release process: [release-process.md](release-process.md)
