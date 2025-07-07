@@ -6,14 +6,39 @@ Variables names should be snake case:
 
 Good:
 ```
-starting_age
+age_start
 ```
 
 Bad:
 ```
-startingAge
-starting.age
-Starting_Age
+ageStart
+age.start
+Age_Start
+```
+
+Names should follow the general heuristic `typeofthing_modifier`:
+
+Good:
+```
+age_start
+```
+
+Bad:
+```
+start_age
+```
+
+Hyphens should be collapsed:
+
+Good:
+
+```
+nonHDLC
+```
+
+Bad:
+```
+non_HDLC
 ```
 
 ### Probabilities
