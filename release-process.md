@@ -2,6 +2,8 @@
 
 Up until the first release, models should be developed in a private repository. By convention these repositories should have a `-dev` suffix, e.g. `OccamResearchLtd/occam-model-dev`.
 
+To create a new R package repo, you can use the [occam-package-template](https://github.com/OccamResearchLtd/occam-package-template).
+
 ## Making a model public
 When ready for release, the following steps should be followed:
 
